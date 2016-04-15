@@ -45,8 +45,8 @@ In your application config, add the path alias for this extension.
 return [
     ...
     'aliases' => [
-        '@mdm/iam' => 'path/to/your/extracted',
-        // for example: '@mdm/iam' => '@app/extensions/mdm/yii2-iam-2.0.0',
+        '@ilhammmalik/iam' => 'path/to/your/extracted',
+        // for example: '@ilhammmalik/iam' => '@app/extensions/ilhammmalik/yii2-iam-2.0.0',
         ...
     ]
 ];
@@ -61,7 +61,7 @@ Once the extension is installed, simply modify your application configuration as
 return [
     'modules' => [
         'iam' => [
-            'class' => 'mdm\iam\Module',
+            'class' => 'ilhammmalik\iam\Module',
             ...
         ]
         ...
@@ -74,7 +74,7 @@ return [
         ]
     ],
     'as access' => [
-        'class' => 'mdm\iam\components\AccessControl',
+        'class' => 'ilhammmalik\iam\components\AccessControl',
         'allowActions' => [
             'site/*',
             'iam/*',
@@ -122,7 +122,7 @@ To do that, change them via `controllerMap` property. For example:
             ...
             'controllerMap' => [
                  'assignment' => [
-                    'class' => 'mdm\iam\controllers\AssignmentController',
+                    'class' => 'ilhammmalik\iam\controllers\AssignmentController',
                     /* 'userClassName' => 'app\models\User', */
                     'idField' => 'user_id',
                     'usernameField' => 'username',
