@@ -26,20 +26,12 @@ Either run
 
 ```
 php composer.phar require ilhammalik/yii2-iam "~1.0"
-or
-php composer.phar require ilhammalik/yii2-iam "~2.0"
-```
 
-or for the dev-master
-
-```
-php composer.phar require ilhammalik/yii2-iam "2.x-dev"
-```
 
 Or, you may add
 
 ```
-"ilhammalik/yii2-iam": "~2.0"
+"ilhammalik/yii2-iam": "~1.0"
 ```
 
 to the require section of your `composer.json` file and execute `php composer.phar update`.
