@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mdm\\admin\\": ""
+             "yii2iam\\": ""
         }
     },
     "extra": {
